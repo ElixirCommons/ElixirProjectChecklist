@@ -30,6 +30,15 @@ def deps do
 end
 ```
 
+## Quick Start
+```
+make # see all commands
+
+make setup # setup project
+make build # build project
+```
+
+
 # Core Checklist
   * [x] setup README.md             - create README
   * [x] setup LICENSE file          - create LICENSE pick Apache
