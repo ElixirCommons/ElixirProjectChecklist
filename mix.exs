@@ -4,7 +4,7 @@ defmodule ElixirProjectChecklist.MixProject do
   def project do
     [
       app: :elixir_project_checklist,
-      version: "1.0.1",
+      version: "1.0.2",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -14,7 +14,7 @@ defmodule ElixirProjectChecklist.MixProject do
       source_url: "https://github.com/ElixirCommons/ElixirProjectChecklist",
       homepage_url: "https://github.com/ElixirCommons/ElixirProjectChecklist",
       description: """
-      ElixirProjectChecklist is a macro inspection library for elixir. I makes it easy for a developer to see what is passed into a macro during macro development. 
+      ElixirProjectChecklist Is a checklist to follow to create new Elixir projects to add things like, formating, versioning, debuging, documentation, code coverage, package publishing, testing etc. You can follow the checklist in project or clone the project if your creating a barebose project. 
       """,
       docs: docs(),
       test_coverage: [tool: ExCoveralls],
@@ -84,7 +84,8 @@ defmodule ElixirProjectChecklist.MixProject do
       links: %{
         "GitHub" => "https://github.com/ElixirCommons/ElixirProjectChecklist",
         "HexDocs" => "https://hexdocs.pm/elixir_project_checklist/"
-      }
+      },
+      maintainers: ["Steve Morin steve at stevemorin.com"]
     ]
   end
 end

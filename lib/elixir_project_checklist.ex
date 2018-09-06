@@ -1,4 +1,4 @@
-defmodule ElixirProjectChecklist. do
+defmodule ElixirProjectChecklist do
   @moduledoc """
   Documentation for ElixirProjectChecklist..  ElixirProjectChecklist Is a checklist 
   to follow to create new Elixir projects to add things like, formating, versioning, 

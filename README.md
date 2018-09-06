@@ -193,7 +193,7 @@ end
 - [ ] Register hex user run: `mix hex.user register`
 - [ ] Confirm your account via email
 - [ ] update `def project do` with `package: package()`, see below
-- [ ] mix.exs add fill out `defp package` keys
+- [ ] mix.exs add fill out `defp package` keys `see below`
 - [ ] check no git dependencies
 - [ ] run: `mix hex.publish`
 - [ ] if first publish update references to hexdocs in readme and mix.exs
@@ -208,7 +208,8 @@ end
       # These are the default files included in the package
       files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
       licenses: ["GNU 3.0"],
-      links: %{"GitHub" => "https://github.com/USERNAME/PROJECTNAME", "HexDocs" => "https://hexdocs.pm/PACKAGE/"}
+      links: %{"GitHub" => "https://github.com/USERNAME/PROJECTNAME", "HexDocs" => "https://hexdocs.pm/PACKAGE/"},
+      maintainers: ["NAME and EMAIL"]
     ]
   end
 ```
