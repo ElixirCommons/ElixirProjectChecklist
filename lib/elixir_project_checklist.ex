@@ -5,6 +5,8 @@ defmodule ElixirProjectChecklist do
   debuging, documentation, code coverage, package publishing, testing etc.  You can 
   follow the checklist in project or clone the project if your creating a barebose 
   project.
+
+  Main documentation here: https://hexdocs.pm/elixir_project_checklist/readme.html
   """
 
   @doc """
