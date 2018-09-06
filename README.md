@@ -284,3 +284,4 @@ be found at [https://hexdocs.pm/elixir_project_checklist](https://hexdocs.pm/eli
 
 ## Contributors
 * Steve Morin - https://github.com/smorin
+* Khaja Minhajuddin - https://github.com/minhajuddin
