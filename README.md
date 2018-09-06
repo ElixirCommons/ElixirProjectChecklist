@@ -53,7 +53,7 @@ make build # build project
 
 See more below
 
-# TODO
+# TODO - requesting pull requests
   * security checks with `sobelow` https://github.com/nccgroup/sobelow
   * debugging with `recon` https://github.com/ferd/recon
   * launch observer
@@ -63,6 +63,10 @@ See more below
   * Crash on warnings (warnings as errors) in CI `mix do clean, compile --force --warning-as-errors`
   * change `mix clean` to not remove all the downloaded deps which may not be needed.
   * Check recommendation using `preferred_cli_env`: https://github.com/parroty/excoveralls#mixexs for commonly used tasks instead of prefixing with MIX_ENV=test
+  * article describing this at https://medium.com/elixircommons
+  * upgrade wrk to wrk2
+  * automate process - cookie cutter clone? https://github.com/audreyr/cookiecutter
+  
 
 
 
